@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
+    <title>RWO</title>
+  </head>
+  <body>
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand"><img src="media/logo.png" alt="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="content.html" class="nav-link disabled">Основной контент</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="profile.html" class="nav-link disabled">Профиль</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link">Войти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                    <div class="col-8 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title mb-5">Форма регистрации</h5>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="registLogin" class="text-indent text-info">Уникальное имя для авторизации</label>
+                                        <input id="registLogin" type="text" class="form-control" placeholder="Введите логин" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="registPassword" class="text-indent text-info">Пароль</label>
+                                        <input id="registPassword" type="password" class="form-control" placeholder="Введите пароль" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="registCode" class="text-indent text-info">Уникальный код для воссталновление доступа</label>
+                                        <input id="registCode" type="password" class="form-control" placeholder="Введите секретный код" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="registName" class="text-indent text-info">Имя отображаемое в профиле</label>
+                                        <input id="registName" type="text" class="form-control" placeholder="Введите имя" required>
+                                    </div>
+                                    <select class="form-group mt-2 mr-4" id="registRole">
+                                        <option value="none" disabled selected="selected" required>Выбрать роль</option>
+                                        <option value="offer">Инвестор</option>
+                                        <option value="writer">Писатель</option>
+                                        <option value="reader">Читатель</option>
+                                    </select>
+                                    
+                                    <button class="btn btn-outline-primary float-right" id="registUser">
+                                        Регистрация
+                                    </button>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
